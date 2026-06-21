@@ -69,16 +69,16 @@ This keeps source media separate from deliverables and makes versioned exports e
 
 ## Quick start
 
-### With Bun (recommended)
-
-```bash
-bunx new-video-project
-```
-
-### With npx
+### With npx (recommended)
 
 ```bash
 npx new-video-project
+```
+
+### With Bun
+
+```bash
+bunx new-video-project
 ```
 
 After running, the CLI asks two quick questions:
