@@ -1,4 +1,7 @@
 import { text } from "@clack/prompts"
+import boxen from "boxen"
+import pc from "picocolors"
+import terminalLink from "terminal-link"
 import path from "path"
 import process from "process"
 import { existsSync } from "node:fs";
@@ -34,6 +37,25 @@ await mkdir(path.join(projectLocation, "Assets", "Audio", "Multitrack"), { recur
 await mkdir(path.join(projectLocation, "Assets", "Images", "Frames"), { recursive: true })
 await mkdir(path.join(projectLocation, "Exports"), { recursive: true })
 console.log("Project structure created successfully!")
-console.log("Feel free to donate to support the project:")
-console.log("https://ko-fi.com/mathesonsteplock")
-console.log("or don't, it's up to you! :)")
+
+const donationUrl = "https://ko-fi.com/mathesonsteplock"
+const donationLink = terminalLink("ko-fi.com/mathesonsteplock", donationUrl, {
+    fallback: (text, url) => `${text} (${url})`
+})
+
+const donationCard = boxen(
+    [
+        pc.bold(pc.cyan("Support this project")),
+        "If this helped, consider buying me a coffee:",
+        pc.underline(pc.blue(donationLink)),
+        pc.dim("No pressure. I just really enjoy creating these tools.")
+    ].join("\n"),
+    {
+        padding: 1,
+        margin: { top: 1 },
+        borderStyle: "round",
+        borderColor: "cyan"
+    }
+)
+
+console.log(donationCard)
