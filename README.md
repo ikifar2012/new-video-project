@@ -32,7 +32,7 @@ This CLI gives you a dependable folder system in seconds, so your timeline stays
 - Customizable destination path
 - Organized creator-first directory tree
 - Separate locations for RAW media, external media, and transcoded files
-- Dedicated space for multitrack audio and frame exports
+- Dedicated space for multitrack audio exports from DAWs and frame exports
 - Works great with Bun and npm workflows
 
 ## Folder structure created
