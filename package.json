@@ -10,7 +10,7 @@
   },
   "version": "1.1.0",
   "repository": {
-    "url": "https://github.com/ikifar2012/npx-new-video-project.git"
+    "url": "https://github.com/ikifar2012/new-video-project.git"
   },
   "scripts": {
     "build": "bun run ./build.ts",
@@ -19,7 +19,8 @@
     "prepublish": "bun run build"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "files": [
     "dist"
