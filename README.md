@@ -2,9 +2,9 @@
 
 A fast CLI for filmmakers and content creators who want a clean project structure before the first cut.
 
-[![npm version](https://img.shields.io/npm/v/new-video-project?color=0ea5e9)](https://www.npmjs.com/package/new-video-project)
-[![license](https://img.shields.io/badge/license-ISC-22c55e)](https://opensource.org/license/isc-license-txt)
-[![runtime](https://img.shields.io/badge/runtime-Bun-fbbf24)](https://bun.com)
+[![npm version](https://img.shields.io/npm/v/new-video-project?style=for-the-badge&logo=npm&logoColor=white&color=cb3837)](https://www.npmjs.com/package/new-video-project)
+[![license](https://img.shields.io/badge/license-ISC-22c55e?style=for-the-badge)](https://opensource.org/license/isc-license-txt)
+[![runtime](https://img.shields.io/badge/runtime-Bun-fbbf24?style=for-the-badge&logo=bun&logoColor=111827)](https://bun.com)
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor%20on-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/ikifar2012)
 [![Ko-fi](https://img.shields.io/badge/Buy%20me%20a%20coffee-Ko--fi-ff5e5b?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/mathesonsteplock)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buymeacoffee&logoColor=111827)](https://buymeacoffee.com/mathesonstep)
@@ -131,9 +131,9 @@ bun run start
 
 If this tool saves you time on a real project, you can support it here:
 
-[![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/ikifar2012)
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-ff5e5b?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/mathesonsteplock)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buymeacoffee&logoColor=111827)](https://buymeacoffee.com/mathesonstep)
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor%20on-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/ikifar2012)
+[![Ko-fi](https://img.shields.io/badge/Buy%20me%20a%20coffee-Ko--fi-ff5e5b?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/mathesonsteplock)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buymeacoffee&logoColor=111827)](https://buymeacoffee.com/mathesonstep)
 
 
 ## Author
