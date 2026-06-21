@@ -8,7 +8,7 @@
   "devDependencies": {
     "@types/bun": "latest"
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "repository": {
     "url": "git+https://github.com/ikifar2012/new-video-project.git"
   },
