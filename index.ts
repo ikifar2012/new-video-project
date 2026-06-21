@@ -33,3 +33,6 @@ await mkdir(path.join(projectLocation, "Assets", "Audio", "Multitrack"), { recur
 await mkdir(path.join(projectLocation, "Assets", "Images", "Frames"), { recursive: true })
 await mkdir(path.join(projectLocation, "Exports"), { recursive: true })
 console.log("Project structure created successfully!")
+console.log("Feel free to donate to support the project:")
+console.log("https://ko-fi.com/mathesonsteplock")
+console.log("or don't, it's up to you! :)")
