@@ -7,6 +7,11 @@ import process from "process"
 import { existsSync } from "node:fs";
 import { mkdir } from "node:fs/promises";
 
+// Handle Ctrl+C gracefully
+process.on('SIGINT', () => {
+    process.exit(0);
+});
+
 // get current date and time
 const datetime = new Date().toDateString();
 
