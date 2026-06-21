@@ -5,12 +5,14 @@
   "private": true,
   "devDependencies": {
     "@types/bun": "latest"
-
   },
   "scripts": {
-    "build": "tsc --outDir dist/",
+    "build": "bun run ./build.ts",
     "start": "bun run build && bun dist/index.js"
   },
+  "files": [
+    "dist"
+  ],
   "bin": {
     "create-new-video-project": "dist/index.js"
   },
