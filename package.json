@@ -2,19 +2,30 @@
   "name": "new-video-project",
   "module": "index.ts",
   "type": "module",
-  "private": true,
+  "author": {
+    "name": "Matheson Steplock"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
+  "version": "1.0.1",
+  "repository": {
+    "url": "https://github.com/ikifar2012/npx-new-video-project.git"
+  },
   "scripts": {
     "build": "bun run ./build.ts",
-    "start": "bun run build && bun dist/index.js"
+    "start": "bun run build && bun run dist/index.js",
+    "publish": "bun publish"
+  },
+  "publishConfig": {
+    "access": "public"
+    
   },
   "files": [
     "dist"
   ],
   "bin": {
-    "create-new-video-project": "dist/index.js"
+    "new-video-project": "dist/index.js"
   },
   "peerDependencies": {
     "typescript": "^5"
