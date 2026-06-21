@@ -29,7 +29,7 @@
     "new-video-project": "dist/index.js"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": "^5 || ^6.0.0"
   },
   "dependencies": {
     "@clack/prompts": "^1.6.0",
