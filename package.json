@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@clack/prompts": "^1.6.0",
-    "boxen": "^8.0.1",
+    "boxen": "^9.0.0",
     "picocolors": "^1.1.1",
     "terminal-link": "^5.0.0"
   }
